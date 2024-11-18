@@ -1,0 +1,81 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alejandro
+    last_name: Nicolas del Alamo
+    
+    # Define yourself in 4-5 words
+    motto: Caigo bien a todo el mundo
+    
+    # Focus
+    focus: Ser uno de los mejores
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+    Soy un estudiante de 19 años, apasionado por aprender, crear y llevar ideas al siguiente nivel. Me encanta salir de mi zona de confort, enfrentar desafíos y encontrar soluciones innovadoras. Con energía, curiosidad infinita y ganas de cambiar las cosas, estoy listo para aprovechar cada oportunidad y demostrar que no hay sueño demasiado grande. ¡El mundo está para conquistarlo, y voy con todo
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+    # Contact Information
+    email: alejandronicolasdelalamo@gmail.com #optional
+    phone: 666265665 #optional
+    website: x.com #optional
+    linkedin: https://www.linkedin.com/in/alejandro-nicolas-del-alamo-67a94119a/ #optional
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Ingles
+        level: Profesional C1
+
+      - idiom: Español
+        level: Nativo
+
+    # Interests or hobbies
+    interests:
+      - item: Hacer ejericio e ir al gym
+
+      - item: Atletismo
+
+      - item: Pasar tiempo de calidad con mis cercanos
+
+# Your previous education
+education:
+    - degree: Eso,Bach
+      time: 2016 - 2024
+      details: |
+       He estado conviviendo con muchas personas y al final he conseguido crear un buen circulo de amistades y he conseguido un muy buen grupo de amigos
+       que no camiaria por nada del mundo
+       
+education:
+    - degree: Full Stack Developer
+      time: 2024 - Actualidad
+      company: 4geeks
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 60%
+
+      - name: JavaScript & jQuery
+        level: 30%
+
+      - name: Angular
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 60%
+
+      - name: Sketch & Photoshop
+        level: 75%
